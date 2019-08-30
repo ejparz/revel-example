@@ -12,6 +12,7 @@ commands:
       #       echo "export GO111MODULE=on" >> $BASH_ENV export GO111MODULE=on
       
       #Need revel cmd runner
+      - run: go get github.com/revel/revel
       - run: go get github.com/revel/cmd/revel
       - run: revel run revel-example
 
