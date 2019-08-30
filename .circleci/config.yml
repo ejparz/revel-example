@@ -6,10 +6,10 @@ version: 2.1
 commands: 
   build-and-start-app:
     steps:
-      # - run: 
-      #     name: Set Use Go Modules env var.
-      #     command: |
-      #       echo "export GO111MODULE=on" >> $BASH_ENV export GO111MODULE=on
+      - run: 
+          name: Set Use Go Modules env var.
+          command: |
+            echo "export GO111MODULE=on" >> $BASH_ENV export GO111MODULE=on
       
       #Need revel cmd runner
       - run: go get github.com/revel/revel
