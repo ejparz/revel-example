@@ -14,7 +14,20 @@ commands:
       #Need revel cmd runner
       - run: go get github.com/revel/revel
       - run: go get github.com/revel/cmd/revel
-      - run: revel run revel-example
+      - run: 
+          name: Start Server in Background
+          command: | 
+            revel run revel-example
+      - run:
+            name: Confirm Server Running
+            command: |
+              for i in `seq 1 10`;
+              do
+                nc -z localhost 9000 && echo Success && exit 0
+                echo -n .
+                sleep 1
+              done
+              echo Failed waiting for app && exit 1
 
 jobs:
   build:
