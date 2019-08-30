@@ -18,6 +18,7 @@ commands:
           name: Start Server in Background
           command: | 
             revel run revel-example
+          background: true
       - run:
             name: Confirm Server Running
             command: |
