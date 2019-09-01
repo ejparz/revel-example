@@ -180,7 +180,6 @@
   analyzer-version = 1
   input-imports = [
     "github.com/revel/cmd/revel",
-    "github.com/revel/modules/static/app/controllers",
     "github.com/revel/modules/testrunner/app",
     "github.com/revel/modules/testrunner/app/controllers",
     "github.com/revel/revel",
