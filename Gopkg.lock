@@ -6,8 +6,10 @@
   name = "github.com/revel/modules"
   packages = [
     ".",
+    "static",
     "static/app/controllers",
     "static/app/model",
+    "testrunner",
     "testrunner/app",
     "testrunner/app/controllers",
   ]
@@ -20,7 +22,9 @@
   analyzer-version = 1
   input-imports = [
     "github.com/revel/modules",
+    "github.com/revel/modules/static",
     "github.com/revel/modules/static/app/controllers",
+    "github.com/revel/modules/testrunner",
     "github.com/revel/modules/testrunner/app",
     "github.com/revel/modules/testrunner/app/controllers",
   ]

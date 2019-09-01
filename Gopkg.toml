@@ -19,10 +19,10 @@
 #  name = "github.com/x/y"
 #  version = "2.4.0"
 
-required = ["github.com/revel/modules", "github.com/revel/modules/static"]
+required = ["github.com/revel/modules", "github.com/revel/modules/static", "github.com/revel/modules/testrunner"]
 ignored = [
   "github.com/revel/cron",
-  "github.com/revel/modules/testrunner",
+  
   "github.com/revel/modules/jobs/app/jobs",
   "github.com/revel/revel",
   "github.com/revel/revel/testing",
