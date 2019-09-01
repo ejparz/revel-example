@@ -18,28 +18,11 @@
 # [[override]]
 #  name = "github.com/x/y"
 #  version = "2.4.0"
-required = ["github.com/revel/cmd/revel"]
 
-[[override]]
-  branch = "master"
-  name = "github.com/revel/modules"
-
-[[override]]
-  branch = "master"
-  name = "github.com/revel/revel"
-
-[[override]]
-  branch = "master"
-  name = "github.com/revel/cmd"
-
-[[override]]
-  branch = "master"
-  name = "github.com/revel/log15"
-
-[[override]]
-  branch = "master"
-  name = "github.com/revel/cron"
-
-[[override]]
-  branch = "master"
-  name = "github.com/xeonx/timeago"
+ignored = [
+  "github.com/revel/cron",
+  "github.com/revel/modules",
+  "github.com/revel/modules/jobs/app/jobs",
+  "github.com/revel/revel",
+  "github.com/revel/revel/testing",
+]

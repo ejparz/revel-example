@@ -2,88 +2,6 @@
 
 
 [[projects]]
-  digest = "1:14750a356d3d2763f9bd846d0c5c9fd0b1570756d59fbc1a80e7c1522dfb5aad"
-  name = "github.com/agtorre/gocolorize"
-  packages = ["."]
-  pruneopts = ""
-  revision = "f42b554bf7f006936130c9bb4f971afd2d87f671"
-  version = "v1.0.0"
-
-[[projects]]
-  digest = "1:a4fcebba8c1b8ae25dd31f1cfa6c6ed5b1e5719ab2e9e1c18e8c98969ebde215"
-  name = "github.com/inconshreveable/log15"
-  packages = ["term"]
-  pruneopts = ""
-  revision = "67afb5ed74ec82fd7ac8f49d27c509ac6f991970"
-  version = "v2.14"
-
-[[projects]]
-  digest = "1:ca5c90960520407749b98c49650f54f5f90a667796e85c5ee1597478f702fb91"
-  name = "github.com/jessevdk/go-flags"
-  packages = ["."]
-  pruneopts = ""
-  revision = "c6ca198ec95c841fdb89fc0de7496fed11ab854e"
-  version = "v1.4.0"
-
-[[projects]]
-  digest = "1:d260ca4db8ced0871a1c06440b1e5835e2d982ed660ca529957d67f28cf24592"
-  name = "github.com/mattn/go-colorable"
-  packages = ["."]
-  pruneopts = ""
-  revision = "8029fb3788e5a4a9c00e415f586a6d033f5d38b3"
-  version = "v0.1.2"
-
-[[projects]]
-  digest = "1:afc2714dedf683e571932f94f8a8ec444679eb84e076e021f63de871c5bc6cb1"
-  name = "github.com/mattn/go-isatty"
-  packages = ["."]
-  pruneopts = ""
-  revision = "e1f7b56ace729e4a73a29a6b4fac6cd5fcda7ab3"
-  version = "v0.0.9"
-
-[[projects]]
-  digest = "1:1d7e1867c49a6dd9856598ef7c3123604ea3daabf5b83f303ff457bcbc410b1d"
-  name = "github.com/pkg/errors"
-  packages = ["."]
-  pruneopts = ""
-  revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
-  version = "v0.8.1"
-
-[[projects]]
-  branch = "master"
-  digest = "1:8a4440927af50e57f46a50936d08453e463ae50ac28e743b4718aa14b63cc6a8"
-  name = "github.com/revel/cmd"
-  packages = [
-    ".",
-    "harness",
-    "logger",
-    "model",
-    "parser",
-    "revel",
-    "tests",
-    "utils",
-    "watcher",
-  ]
-  pruneopts = ""
-  revision = "149f9f992be9b0957fb1ffeda43c14a123ceb43a"
-
-[[projects]]
-  digest = "1:17c45c7e1dd9a5225559e9e50936c2916e57bb79d21e9f5064acb16ec11e449a"
-  name = "github.com/revel/config"
-  packages = ["."]
-  pruneopts = ""
-  revision = "a81c4105c36841d27e529f875b6062da7b8f986c"
-  version = "v0.21.0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:f45f196b397a7697584d6235b8fdc129c4ab3289ac83b1746983a957a191ae21"
-  name = "github.com/revel/log15"
-  packages = ["."]
-  pruneopts = ""
-  revision = "793412a67da6f8d15fede4c38f5c66272478cb8a"
-
-[[projects]]
   branch = "master"
   digest = "1:e9ba6a34ad011854cedae88e7094bd4ffc571d3ca892b040128ada81ae82de7e"
   name = "github.com/revel/modules"
@@ -96,94 +14,13 @@
   pruneopts = ""
   revision = "2737bfdaa8c41da68eae12bb18f7279b9f156048"
 
-[[projects]]
-  branch = "master"
-  digest = "1:3873ef6b952e4e21908cb42873ece035021820914a73eabd10c54f14548223a5"
-  name = "github.com/revel/pathtree"
-  packages = ["."]
-  pruneopts = ""
-  revision = "41257a1839e945fce74afd070e02bab2ea2c776a"
-
-[[projects]]
-  branch = "master"
-  digest = "1:afc655510d75b958e91c1f156997f1b1875790c1383f9ba67a041ffe283ba604"
-  name = "github.com/revel/revel"
-  packages = [
-    ".",
-    "logger",
-    "model",
-    "session",
-    "testing",
-    "utils",
-  ]
-  pruneopts = ""
-  revision = "a3d7a7c23ca885cc5036d3641ede49ce4a14ee2e"
-
-[[projects]]
-  digest = "1:c27b9d796a0011b90661dc71cb6627d844372327c9e1f306d0713ed679139ebf"
-  name = "github.com/twinj/uuid"
-  packages = ["."]
-  pruneopts = ""
-  revision = "835a10bbd6bce40820349a68b1368a62c3c5617c"
-  version = "v1.0.0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:13523c966ab998994295876878a9bbecd3f37b3cd2c77a11644fe8ae63b22670"
-  name = "github.com/xeonx/timeago"
-  packages = ["."]
-  pruneopts = ""
-  revision = "4e7d8c1f9a433881f64a7f87f51e494186857982"
-
-[[projects]]
-  branch = "master"
-  digest = "1:87c06c289123bf8be0a776c57ca40ce075f6c598a905ff2ff8ba40fba0d5d17c"
-  name = "golang.org/x/net"
-  packages = ["websocket"]
-  pruneopts = ""
-  revision = "ba9fcec4b297b415637633c5a6e8fa592e4a16c3"
-
-[[projects]]
-  branch = "master"
-  digest = "1:a26372a646b027621fd727c4d1edecc8f9da1eb1b1d692f821627198ecaccb9a"
-  name = "golang.org/x/sys"
-  packages = ["unix"]
-  pruneopts = ""
-  revision = "1e83adbbebd0f5dc971915fd7e5db032c3d2b731"
-
-[[projects]]
-  digest = "1:eb53021a8aa3f599d29c7102e65026242bdedce998a54837dc67f14b6a97c5fd"
-  name = "gopkg.in/fsnotify/fsnotify.v1"
-  packages = ["."]
-  pruneopts = ""
-  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
-  version = "v1.4.7"
-
-[[projects]]
-  digest = "1:11c58e19ff7ce22740423bb933f1ddca3bf575def40d5ac3437ec12871b1648b"
-  name = "gopkg.in/natefinch/lumberjack.v2"
-  packages = ["."]
-  pruneopts = ""
-  revision = "a96e63847dc3c67d17befa69c303767e2f84e54f"
-  version = "v2.1"
-
-[[projects]]
-  branch = "v0"
-  digest = "1:6aec919ba0088e4eb5affc6598fa9fcd9ec71d4127a19841176570a55b908384"
-  name = "gopkg.in/stack.v0"
-  packages = ["."]
-  pruneopts = ""
-  revision = "9b43fcefddd0178abdabf4d484ab0d695d0011db"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/revel/cmd/revel",
+    "github.com/revel/modules/static/app/controllers",
     "github.com/revel/modules/testrunner/app",
     "github.com/revel/modules/testrunner/app/controllers",
-    "github.com/revel/revel",
-    "github.com/revel/revel/testing",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
