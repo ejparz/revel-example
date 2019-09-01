@@ -22,9 +22,12 @@
 ignored = [
   "github.com/revel/cron",
   "github.com/revel/modules",
-  "github.com/revel/modules/static",
+  #"github.com/revel/modules/static",
   "github.com/revel/modules/testrunner",
   "github.com/revel/modules/jobs/app/jobs",
   "github.com/revel/revel",
   "github.com/revel/revel/testing",
 ]
+[[constraint]]
+  name = "github.com/revel/modules"
+  version = "0.21.0"
